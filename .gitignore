@@ -1,0 +1,49 @@
+# Swap files
+*.swp
+*.swo
+
+# Backup files
+*.bak
+*.tmp
+*.temp
+
+# Undo files
+*.un~
+*.un
+
+# Session files
+Session.vim
+main.session
+
+# Plugin directories (if using a plugin manager like packer or vim-plug)
+plugged/
+site/
+pack/
+
+# Node dependencies (if using with npm or yarn)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python virtual environment (if you use it in Neovim with LSPs or plugins)
+venv/
+.venv/
+env/
+.env/
+
+# Lua language server settings or Lua cache (if using Lua plugins or configs)
+*.luac
+.nvimpkg
+.cache
+
+# LSP data and cache
+.cache/
+lsp.log
+diagnostic.log
+nvim-data/
+
+# Swap and backup directories (if stored in a custom directory)
+.swap/
+.backup/
+.view/
+
